@@ -1,3 +1,4 @@
+import { ReactComponent as MenuIcon } from 'assets/images/menu-hamburger.svg';
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
 
@@ -18,7 +19,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon custom-togglr"></span>
+          <MenuIcon />
         </button>
 
         <div className="collapse navbar-collapse" id="carrostop-navbar">
