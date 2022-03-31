@@ -67,7 +67,7 @@
 
 @media (min-width: 576px) {
   .home-container {
-    padding: 20px;
+    padding:20px;
     font-size: 22px;
   }
 
@@ -153,9 +153,6 @@
     padding: 70px 85px;
   }
 
-  .home-card svg {
-  }
-
   .home-content-container {
     display: flex;
     justify-content: center;
@@ -178,4 +175,5 @@
     margin: 0%;
     padding: 0;
   }
+
 }

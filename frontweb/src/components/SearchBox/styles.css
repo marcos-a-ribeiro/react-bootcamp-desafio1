@@ -1,0 +1,32 @@
+.search-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    height: 85px;
+    margin-top: 20px;
+}
+
+.search-text {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 10px;
+}
+
+.search-button {
+    border-radius: 0 5px  5px 0;
+    height: 40px;
+    background-color: #00285F;
+    align-items: center;
+}
+
+.search-button p {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
