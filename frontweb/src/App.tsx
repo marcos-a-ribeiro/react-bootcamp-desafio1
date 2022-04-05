@@ -1,12 +1,10 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from 'pages/Home';
-import SearchBox from 'components/SearchBox';
-import Catalog from 'pages/Catalog';
+import Routes from 'Routes';
 
 function App() {
   return (
-    <Catalog />
+    <Routes />
   );
 }
 
